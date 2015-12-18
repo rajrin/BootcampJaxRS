@@ -1,0 +1,8 @@
+applications:
+- path: target/BootcampTemplate.war
+  memory: 512M
+  instances: 1
+  domain: cfapps.io
+  name: TcsBootcampApp
+  host: TcsBootcamp
+  disk_quota: 1024M
