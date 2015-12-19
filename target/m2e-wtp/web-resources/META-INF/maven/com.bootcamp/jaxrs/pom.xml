@@ -14,8 +14,11 @@
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
-			<dependency> <groupId>javax.servlet</groupId> 
-			<artifactId>javax.servlet-api</artifactId> <version>3.0.1</version> </dependency> 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
@@ -31,7 +34,12 @@
 			<artifactId>jersey-media-moxy</artifactId>
 			<version>2.7</version>
 		</dependency>
-
+		<!-- Mongo DB Driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
